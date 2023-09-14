@@ -52,7 +52,6 @@ const increasePeople = () => {
 const decreasePeople = () => {
   // guard clause
   // if amount is 1 or less simply return
-  // (a.k.a you can't decrease the number of people to 0 or negative!)
   if(numberOfPeople <= 1) {
     alert('You can not have less than 1 Member')
     return
